@@ -32,7 +32,22 @@ Follow the following instructions before using the application.
     ![housing_unit_bar_chart](Resources/Images/housing_unit_bar_chart.png)
     
     ![question1](Resources/Images/question1.png)
+    
+---
+
+## Calculate and Plot the Average Sale Prices per Square Foot
+
+Using numerical and visual aggregation, we calculate the average prices per square foot, and then visualize the results as a line plot.
 
 
+    1. The data is grouped by year using `groupby` function and the `mean` of the result is calculated.
+
+    2. A new dataframe `prices_square_foot_by_year` is created by filtering out the “housing_units” column and including just the averages per year for only the sale price per square foot and the gross rent.
+
+    3. A line plot of the `prices_square_foot_by_year` is plotted using `hvplot` function with `year` in x-axis and both `sale_price_sqr_foot` &  `gross_rent` in y-axis. The plot is then formatted and styled.
+
+    ![prices_square_foot_by_year_plot](Resources/Images/prices_square_foot_by_year_plot.png)
+
+    ![question2](Resources/Images/question2.png)
     
 
