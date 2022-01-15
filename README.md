@@ -1,5 +1,5 @@
 # SFO_Rental_Market_Analysis
-    This data visualization application analysis the housing rental market data in San Francisco area and helps the user to find properties that are viable investment for them. 
+   This data visualization application analysis the housing rental market data in San Francisco area and helps the user to find properties that are viable investment for them. 
     
 ---
 
@@ -98,6 +98,7 @@ Using hvPlot and GeoViews, we explore the geospatial relationships in the data. 
 ---
 
 ## Data Story
+
    
    ![question5](Resources/Images/question5.png)
    
